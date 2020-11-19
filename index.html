@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Snow</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="qrcode.min.js"></script>
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Welcome to QR Code Snow!</h1>
+        </header>
+            
+        <div class="container">
+            <div class="container-left">
+                <h3>Generate your free QR Code below!</h3>
+                <input type="text" id="txt_input" class="input" placeholder="Enter your text here...">
+                <input type="button" id="btn_go" value="Create QR Code" class="button">
+            </div>
+            <div class="container-right">
+                <div class="qrcode" id="div_qrcode"></div>
+            </div>
+        </div>
+    
+        <div class="footer">
+            <p>Made by <a href="http://denisbm.com">Denis Bittencourt</a>!</p>
+        </div>
+    </section>
+</body>
+</html>
